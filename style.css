@@ -1,0 +1,67 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+    
+
+*{box-sizing: border-box;}
+body{
+    text-align: center;
+    align-items: center;
+    background: hsl(0, 100%, 74%)  url("bg-intro-desktop.png");
+    font-Family: 'Poppins';
+    font-weight:400, 500, 600, 700;
+}
+p{  size: 30px;
+    color: white;
+}
+.text-left, #right {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    margin-top: 25vh;
+}
+
+#right{
+    margin: 10px;
+    padding: 10px;
+    width: 45%;
+    margin-top: 25vh;
+}
+.form{
+    background-color: white;
+    margin: 30px;
+    padding: 20px; 
+    border: 1px;
+    border-radius: 10px;
+}
+.try{
+    background-color: hsl(248, 32%, 49%);
+    
+}
+.col5, button{
+    background-color: hsl(154, 59%, 51%);
+    border: 0;
+}
+.end{
+    color: hsl(246, 25%, 77%);
+}
+.col{
+    margin: 10px;
+    border-radius: 2px;
+    border: 1px;
+}
+button::after{ url("icon-error.svg")
+
+}
+input{
+    width: ;
+}
+
+   
+
+@media screen and (max-width: 375px)
+ { .text-left, #right{
+     float: none;
+   }
+    .text-left, #right{
+        width: 90%;
+    }
+ }
